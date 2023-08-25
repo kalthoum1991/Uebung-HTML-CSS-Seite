@@ -1,0 +1,142 @@
+body {
+  /***********Das Bild in den Hintergrund gelegt***********/
+  background-image: url(https://th.bing.com/th/id/R.8355e3da956c93523bd3a9be7cc47ae1?rik=%2fCz843CB%2f06%2bUw&riu=http%3a%2f%2fmonmondevirtuel.m.o.pic.centerblog.net%2fo%2f41783e90.jpg&ehk=6CBKs90JSiibIA5LpTrnRmQgUNyc2NFh4udxXrXNXgA%3d&risl=&pid=ImgRaw&r=0);
+  display: grid;
+  grid-template-columns: 70% 30%;
+  height: 100vh;
+  /***********Die Häufigkeit***********/
+  background-repeat: no-repeat;
+  /***********Das Bild in den Hintergrund fixieren***********/
+  background-attachment: fixed;
+  background-position: center center;
+  /***********Das Hintergrundbild größse anpassen ***********/
+  background-size: cover;
+}
+header {
+  border-radius: 10px;
+  height: 150px;
+  grid-column-start: 1;
+  grid-column-end: span 2;
+  background-color: rgba(255, 255, 255, 0.662);
+}
+main {
+  grid-row-start: 2;
+  background-color: rgba(248, 223, 193, 0.662);
+}
+footer {
+  display: grid;
+  grid-template-columns: 49% 49%;
+  border-radius: 10px;
+  grid-column-start: 1;
+  grid-column-end: span 2;
+  background-color: rgba(255, 255, 255, 0.662);
+}
+
+nav {
+  grid-column-start: 2;
+  background-color: rgba(95, 158, 160, 0.457);
+}
+.nav2 {
+  grid-column-start: 2;
+  background-color: rgba(218, 165, 32, 0.56);
+}
+footer img {
+  margin: 2px;
+  border-radius: 3px;
+  border: gray 1px groove;
+  width: 200px;
+  height: 180px;
+  padding: 5px;
+  box-shadow: 2px 2px 2px 4px rgba(20, 20, 20, 0.477);
+}
+footer .div1 {
+  text-align: center;
+  margin: 5px;
+  border: 1px black solid;
+}
+
+footer .div2 {
+  margin: 5px;
+  border: 1px black solid;
+}
+nav div p {
+  color: white;
+}
+nav div img {
+  margin: 2px;
+  border-radius: 3px;
+  border: gray 1px groove;
+  width: 200px;
+  height: 180px;
+  padding: 5px;
+  box-shadow: 2px 2px 2px 4px rgba(20, 20, 20, 0.477);
+}
+nav div {
+}
+nav div .A {
+  box-shadow: 2px 2px 4px rgba(20, 20, 20, 0.477);
+  margin: 2px;
+  border-radius: 3px;
+  border: gray 1px groove;
+  text-align: center;
+  height: 30px;
+  width: 100px;
+  background-color: white;
+}
+nav div .A:hover {
+  transition: 2s;
+  box-shadow: 4px 4px 5px 5px rgba(45, 45, 45, 0.642);
+  margin: 2px;
+  border-radius: 3px;
+  border: gray 1px groove;
+  text-align: center;
+  height: 30px;
+  width: 100px;
+  background-color: rgba(250, 128, 114, 0.649);
+}
+main .Audi:hover {
+  box-shadow: 3px 3px 3px 3px;
+  border: groove rgb(26, 77, 129) 5px;
+  transition: 1s;
+}
+
+main .Mercedes {
+  margin: 5px;
+  border: gray 2px inset;
+  display: flex;
+  justify-content: space-between;
+}
+main .Mercedes:hover {
+  box-shadow: 3px 3px 3px 3px;
+  border: groove rgb(26, 77, 129) 5px;
+  transition: 1s;
+}
+main img {
+  border-radius: 3px;
+  border: gray 1px groove;
+  width: 200px;
+  height: 150px;
+  padding: 5px;
+  box-shadow: 2px 2px 2px 4px rgba(255, 255, 255, 0.32);
+}
+main .Audi {
+  margin: 5px;
+  grid-column-start: 2;
+
+  border: gray 2px inset;
+  display: flex;
+  justify-content: space-between;
+}
+main .Audi:hover {
+  box-shadow: 3px 3px 3px 3px;
+  border: groove rgb(26, 77, 129) 5px;
+  transition: 1s;
+}
+main .Audi p {
+  margin: 3px;
+  border: 3px solid rgba(0, 0, 0, 0.395);
+}
+main .Mercedes p {
+  margin: 3px;
+  border: 3px solid rgba(0, 0, 0, 0.395);
+}
